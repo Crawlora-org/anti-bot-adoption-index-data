@@ -1,0 +1,233 @@
+{
+  "run_id": "top1m-20260614",
+  "total_records": 998497,
+  "reachable": 818614,
+  "protected": 437857,
+  "protected_pct": 53.5,
+  "vendors": [
+    {
+      "vendor": "Cloudflare",
+      "sites": 368609,
+      "pct_of_reachable": 45.0
+    },
+    {
+      "vendor": "Google reCAPTCHA",
+      "sites": 61238,
+      "pct_of_reachable": 7.5
+    },
+    {
+      "vendor": "hCaptcha",
+      "sites": 28249,
+      "pct_of_reachable": 3.5
+    },
+    {
+      "vendor": "Unidentified WAF / bot protection",
+      "sites": 17383,
+      "pct_of_reachable": 2.1
+    },
+    {
+      "vendor": "Cloudflare Turnstile",
+      "sites": 10910,
+      "pct_of_reachable": 1.3
+    },
+    {
+      "vendor": "Imperva (Incapsula)",
+      "sites": 5249,
+      "pct_of_reachable": 0.6
+    },
+    {
+      "vendor": "Akamai (edge)",
+      "sites": 5185,
+      "pct_of_reachable": 0.6
+    },
+    {
+      "vendor": "Akamai Bot Manager",
+      "sites": 4810,
+      "pct_of_reachable": 0.6
+    },
+    {
+      "vendor": "DDoS-Guard",
+      "sites": 4503,
+      "pct_of_reachable": 0.6
+    },
+    {
+      "vendor": "Sucuri",
+      "sites": 2224,
+      "pct_of_reachable": 0.3
+    },
+    {
+      "vendor": "GeeTest",
+      "sites": 2034,
+      "pct_of_reachable": 0.2
+    },
+    {
+      "vendor": "Citrix NetScaler",
+      "sites": 1964,
+      "pct_of_reachable": 0.2
+    },
+    {
+      "vendor": "Rate limiting",
+      "sites": 1493,
+      "pct_of_reachable": 0.2
+    },
+    {
+      "vendor": "Qrator",
+      "sites": 1323,
+      "pct_of_reachable": 0.2
+    },
+    {
+      "vendor": "DataDome",
+      "sites": 1270,
+      "pct_of_reachable": 0.2
+    },
+    {
+      "vendor": "AWS WAF CAPTCHA",
+      "sites": 864,
+      "pct_of_reachable": 0.1
+    },
+    {
+      "vendor": "AWS WAF",
+      "sites": 863,
+      "pct_of_reachable": 0.1
+    },
+    {
+      "vendor": "PerimeterX (HUMAN)",
+      "sites": 759,
+      "pct_of_reachable": 0.1
+    },
+    {
+      "vendor": "Vercel Security",
+      "sites": 612,
+      "pct_of_reachable": 0.1
+    },
+    {
+      "vendor": "Anubis (PoW)",
+      "sites": 204,
+      "pct_of_reachable": 0.0
+    },
+    {
+      "vendor": "Friendly Captcha",
+      "sites": 193,
+      "pct_of_reachable": 0.0
+    },
+    {
+      "vendor": "Tencent Captcha",
+      "sites": 88,
+      "pct_of_reachable": 0.0
+    },
+    {
+      "vendor": "Arkose Labs (FunCaptcha)",
+      "sites": 69,
+      "pct_of_reachable": 0.0
+    },
+    {
+      "vendor": "Variti",
+      "sites": 49,
+      "pct_of_reachable": 0.0
+    },
+    {
+      "vendor": "TikTok (proprietary VM)",
+      "sites": 41,
+      "pct_of_reachable": 0.0
+    },
+    {
+      "vendor": "NetEase Yidun",
+      "sites": 36,
+      "pct_of_reachable": 0.0
+    },
+    {
+      "vendor": "Kasada",
+      "sites": 29,
+      "pct_of_reachable": 0.0
+    },
+    {
+      "vendor": "Wordfence",
+      "sites": 14,
+      "pct_of_reachable": 0.0
+    },
+    {
+      "vendor": "ModSecurity",
+      "sites": 10,
+      "pct_of_reachable": 0.0
+    },
+    {
+      "vendor": "Alibaba slider",
+      "sites": 4,
+      "pct_of_reachable": 0.0
+    },
+    {
+      "vendor": "F5 Shape",
+      "sites": 2,
+      "pct_of_reachable": 0.0
+    }
+  ],
+  "kinds": [
+    {
+      "kind": "waf",
+      "sites": 389543,
+      "pct_of_reachable": 47.6
+    },
+    {
+      "kind": "captcha",
+      "sites": 76755,
+      "pct_of_reachable": 9.4
+    },
+    {
+      "kind": "access_control",
+      "sites": 17383,
+      "pct_of_reachable": 2.1
+    },
+    {
+      "kind": "bot_management",
+      "sites": 6888,
+      "pct_of_reachable": 0.8
+    },
+    {
+      "kind": "rate_limit",
+      "sites": 1493,
+      "pct_of_reachable": 0.2
+    }
+  ],
+  "rank_gradient": [
+    {
+      "band": "top 1k",
+      "total": 999,
+      "reachable": 739,
+      "protected": 327,
+      "cloudflare": 173,
+      "enterprise_bm": 56,
+      "protected_pct": 44.2,
+      "cloudflare_pct": 23.4
+    },
+    {
+      "band": "1k-10k",
+      "total": 9000,
+      "reachable": 7299,
+      "protected": 3704,
+      "cloudflare": 2484,
+      "enterprise_bm": 386,
+      "protected_pct": 50.7,
+      "cloudflare_pct": 34.0
+    },
+    {
+      "band": "10k-100k",
+      "total": 90000,
+      "reachable": 73538,
+      "protected": 38438,
+      "cloudflare": 29583,
+      "enterprise_bm": 1874,
+      "protected_pct": 52.3,
+      "cloudflare_pct": 40.2
+    },
+    {
+      "band": "100k-1M",
+      "total": 898498,
+      "reachable": 737038,
+      "protected": 395388,
+      "cloudflare": 336369,
+      "enterprise_bm": 4453,
+      "protected_pct": 53.6,
+      "cloudflare_pct": 45.6
+    }
+  ]
+}
