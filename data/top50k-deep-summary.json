@@ -1,0 +1,122 @@
+{
+  "run_id": "top50k-deep-20260613",
+  "scan": "deep-page census (top-50k sites)",
+  "tier": "HTTP (datacenter) \u2014 detects a managed walls PRESENCE, not full browser difficulty",
+  "total_records": 86792,
+  "homepage": {
+    "count": 49987,
+    "protected": 20239,
+    "protected_pct": 40.5,
+    "auth_walled": 7,
+    "http_blocked": 15514
+  },
+  "deep_pages": {
+    "count": 36805,
+    "protected": 17813,
+    "protected_pct": 48.4,
+    "auth_walled": 158,
+    "http_blocked": 1750
+  },
+  "page_types": [
+    {
+      "page_type": "homepage",
+      "records": 49987
+    },
+    {
+      "page_type": "page",
+      "records": 15478
+    },
+    {
+      "page_type": "en",
+      "records": 691
+    },
+    {
+      "page_type": "news",
+      "records": 454
+    },
+    {
+      "page_type": "category",
+      "records": 416
+    },
+    {
+      "page_type": "products",
+      "records": 350
+    },
+    {
+      "page_type": "solutions",
+      "records": 286
+    },
+    {
+      "page_type": "tag",
+      "records": 233
+    },
+    {
+      "page_type": "features",
+      "records": 177
+    },
+    {
+      "page_type": "blog",
+      "records": 166
+    },
+    {
+      "page_type": "services",
+      "records": 120
+    },
+    {
+      "page_type": "product",
+      "records": 119
+    },
+    {
+      "page_type": "categories",
+      "records": 110
+    },
+    {
+      "page_type": "en-us",
+      "records": 108
+    },
+    {
+      "page_type": "article",
+      "records": 105
+    },
+    {
+      "page_type": "tags",
+      "records": 95
+    },
+    {
+      "page_type": "video",
+      "records": 94
+    },
+    {
+      "page_type": "pages",
+      "records": 89
+    },
+    {
+      "page_type": "resources",
+      "records": 86
+    },
+    {
+      "page_type": "platform",
+      "records": 82
+    },
+    {
+      "page_type": "author",
+      "records": 76
+    },
+    {
+      "page_type": "docs",
+      "records": 76
+    },
+    {
+      "page_type": "company",
+      "records": 71
+    },
+    {
+      "page_type": "industries",
+      "records": 71
+    },
+    {
+      "page_type": "user",
+      "records": 70
+    }
+  ]
+}

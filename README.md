@@ -72,3 +72,25 @@ datacenter IP sees more challenges than a residential one. Full method:
 ## License & citation
 **CC BY 4.0** — <https://creativecommons.org/licenses/by/4.0/>. Please cite as
 *"Crawlora Anti-Bot Adoption Index"* with a link to <https://crawlora.net/anti-bot-index>.
+
+## Deep-page census (top-50k)
+
+Homepages understate protection: the page you actually scrape — a product, listing,
+profile or search page — is often walled differently. We re-probed the **same top-50,000
+sites** at their deep pages (run `top50k-deep-20260613`, HTTP tier).
+
+| file | what |
+| --- | --- |
+| `data/top50k-deep.jsonl.gz` | 86,792 records (homepages + deep pages), one JSON record per line, gzipped |
+| `data/top50k-deep-sample.jsonl` | the first 200 records, uncompressed |
+| `data/top50k-deep-summary.json` | homepage-vs-deep protection stats + page-type counts |
+
+Each record uses the same schema as `top1m.jsonl.gz` plus a **`page_type`** field
+(`homepage`, or the deep-page template: `page`, `category`, `products`, `blog`, …) and a
+`category`. Filter `page_type == "homepage"` for the homepage baseline; anything else is a
+deep page.
+
+On the same 50k sites: **40.5%** of homepages carry a managed wall vs **48.4%** of deep
+pages, and deep pages are ~**30×** more likely to sit behind a login wall. This is an
+HTTP-tier (datacenter) probe — it detects a wall's *presence*, not full browser-tier
+difficulty; treat it as a lower bound.
