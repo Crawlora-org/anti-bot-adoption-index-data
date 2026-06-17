@@ -94,3 +94,14 @@ On the same 50k sites: **40.5%** of homepages carry a managed wall vs **48.4%** 
 pages, and deep pages are ~**30×** more likely to sit behind a login wall. This is an
 HTTP-tier (datacenter) probe — it detects a wall's *presence*, not full browser-tier
 difficulty; treat it as a lower bound.
+
+## Run the detector yourself
+
+The passive anti-bot/WAF detector behind this dataset is open-source (MIT):
+
+```sh
+go install github.com/Crawlora-org/crawlora-antibot@latest
+crawlora-antibot nike.com        # → Akamai Bot Manager, hard
+```
+
+Repo: https://github.com/Crawlora-org/crawlora-antibot — same signatures used to build this index.
