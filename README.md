@@ -6,8 +6,8 @@ Licensed **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**.
 
 - **998,497** sites probed · **818,614** reachable ·
   **53.5%** of reachable run a managed anti-bot / WAF.
-- Searchable explorer + analysis: <https://crawlora.net/anti-bot-index> ·
-  methodology: <https://crawlora.net/anti-bot-index/methodology>
+- Searchable explorer + analysis: [https://crawlora.net/anti-bot-index](https://crawlora.net/anti-bot-index?utm_source=github&utm_medium=referral&utm_campaign=anti-bot-index) ·
+  methodology: [https://crawlora.net/anti-bot-index/methodology](https://crawlora.net/anti-bot-index/methodology?utm_source=github&utm_medium=referral&utm_campaign=anti-bot-index)
 
 ## Files
 | file | what |
@@ -67,11 +67,11 @@ challenge-shaped body markers, matched against a database of public, documented 
 fingerprints. One GET per homepage; we never submit forms, run CAPTCHAs, or log in. It is a
 **lower bound** — homepages are more open than the deep pages people actually scrape, and a
 datacenter IP sees more challenges than a residential one. Full method:
-<https://crawlora.net/anti-bot-index/methodology>.
+[https://crawlora.net/anti-bot-index/methodology](https://crawlora.net/anti-bot-index/methodology?utm_source=github&utm_medium=referral&utm_campaign=anti-bot-index).
 
 ## License & citation
 **CC BY 4.0** — <https://creativecommons.org/licenses/by/4.0/>. Please cite as
-*"Crawlora Anti-Bot Adoption Index"* with a link to <https://crawlora.net/anti-bot-index>.
+*"Crawlora Anti-Bot Adoption Index"* with a link to [https://crawlora.net/anti-bot-index](https://crawlora.net/anti-bot-index?utm_source=github&utm_medium=referral&utm_campaign=anti-bot-index).
 
 ## Deep-page census (top-50k)
 
