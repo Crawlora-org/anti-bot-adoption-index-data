@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Crawlora Anti-Bot Adoption Index — top-1M open dataset"
+type: dataset
+authors:
+  - name: "Crawlora"
+    website: "https://crawlora.net"
+repository-code: "https://github.com/Crawlora-org/anti-bot-adoption-index-data"
+url: "https://crawlora.net/anti-bot-index"
+license: CC-BY-4.0
+version: "top1m-20260614"
+date-released: "2026-06-15"
+abstract: >-
+  Per-domain results of an independent anti-bot / WAF scan of the top 1,000,000 sites,
+  seeded from the Tranco research ranking (run top1m-20260614): 998,497 sites probed,
+  818,614 reachable, and 53.5% of reachable sites run a managed anti-bot or WAF.
+keywords:
+  - anti-bot
+  - waf
+  - bot-detection
+  - web-scraping
+  - tranco
+  - dataset
+  - open-data
